@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Clone</title>
+
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="toggle-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <img src="img/logo.PNG" class="logo" alt="">
+        <div class="search-box">
+            <input type="text" class="search-bar" placeholder="search">
+            <button class="search-btn"><img src="img/search.PNG" alt=""></button>
+        </div>
+        <div class="user-options">
+            <img src="img/video.PNG" class="icon" alt="">
+            <img src="img/grid.PNG" class="icon" alt="">
+            <img src="img/bell.PNG" class="icon" alt="">
+            <div class="user-dp">
+                <img src="img/profile-ms-Dhoni.png" alt="">
+            </div>
+        </div>
+    </nav>
+
+    
+    <div class="side-bar">
+        <a href="#" class="links active"><img src="img/home.PNG" alt="">home</a>
+        <a href="#" class="links"><img src="img/explore.PNG" alt="">explore</a>
+        <a href="#" class="links"><img src="img/subscription.PNG" alt="">subscription</a>
+        <hr class="seperator">
+       <div>
+           
+          <p style="margin: 7px;font-weight: bold;">Mention the channel-id to get Channel details</p> 
+           <p style="margin: 15px;font-weight: bold;">Channel Details:</p>
+           <div style="margin: 10px;">
+            YouTube Subscribers: <input type="text" name="" id="Subscriberid">
+           </div>
+           <div style="margin: 10px;">
+            YouTube Video Views: <input type="text" name="" id="views">
+           </div>
+           <div style="margin: 10px;">
+            YouTube Video Count: <input type="text" name="" id="videocount">
+           </div>
+
+       </div>
+
+
+
+        <div>
+            <button id="Play-list" style="margin: 10px;">Playlist:</button>
+            <input type="text" name="" id="PlayList" style="width: 220px;height: 80px;margin-left: 10px;">
+        </div>
+
+       
+    </div>
+
+    
+    <div class="filters">
+        <button class="filter-options active">All</button>
+        <button class="filter-options">Cricket</button>
+        <button class="filter-options">WWE</button>
+        <button class="filter-options">FootBall</button>
+        <button class="filter-options">Boxing</button>
+        <button class="filter-options">Cinema</button>
+        <button class="filter-options">Hollywood</button>
+        <button class="filter-options">ElonMusk</button>
+        <button class="filter-options">JavaScript</button>
+        <button class="filter-options">Magic</button>
+    </div>
+
+    
+    <div class="video-container">
+        <div class="video">
+            <img src="img/profile-ms-Dhoni.png" class="thumbnail" alt="">
+            <div class="content">
+                <img src="img/profile-ms-Dhoni.png" class="channel-icon" alt="">
+                <div class="info">
+                    <h4 class="title">Youtube clone</h4>
+                    <p class="channel-name">ms-Dhoni</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="index.js"></script>
+    
+</body>
+</html>
